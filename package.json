@@ -1,0 +1,24 @@
+{
+  "name": "my-authenticator",
+  "private": true,
+  "version": "1.2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@zxing/browser": "^0.1.5",
+    "buffer": "^6.0.3",
+    "lucide-react": "^0.468.0",
+    "otplib": "^12.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "vite": "^5.4.21",
+    "vite-node": "^6.0.0"
+  }
+}
